@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: azure; 
+}
+
+.box {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
+
+.h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.i {
+    margin-right: 50px;
+}
+
+.t {
+    display: flex;
+    margin-right: 50px;
+}
+
+.ngang {
+    display: flex;
+}
+
+.phai {
+    display: flex;
+    justify-content: flex-end;
+}

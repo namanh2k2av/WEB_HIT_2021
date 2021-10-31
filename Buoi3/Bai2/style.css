@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+}
+
+.frame {
+    border: 0.5px solid rgb(245, 235, 216);
+    background-color: white;
+    width: 70vw;
+    height: 90vh;
+}
+.page {
+    padding: 20px 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.wedo {
+    display: flex;
+    margin-right: 30px;
+}
+
+.wedo i {
+    margin-right: 10px;
+}
+
+.ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+li {
+    margin: 0 15px;
+    list-style-type: none;
+}
+
+.talk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.idea {
+    padding: 10px 10px 10px 0;
+}
+
+.idea h1{
+    margin-bottom: 30px;
+}
+
+.idea .weare {
+    padding: 0 100px 0 0;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
+
+.put{
+    display: flex;
+}
+
+.get {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    margin-right: 60px;
+    background-color: black;
+}
+
+.get p{
+    color: white;
+}
+
+.learn {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.img {
+    margin-top: 15px;
+    height: 290px;
+    width: 600px;
+    background-image: url("https://cdn.vietnambiz.vn/stores/news_dataimages/hanhtt/072017/14/11/2716_usd-gia.jpg");
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 100px 0 50px 50px;
+    background-position: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.meet{
+    width: 200px;
+    height: 200px;
+    flex-basis: 25%;
+}
+
+.meet p{
+    opacity: 0.6;
+}
+
+.anh {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.a{
+    background-image: url("billgate.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.b{
+    background-image: url("elonmusk.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.c{
+    background-image: url("mark.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.d{
+    background-image: url("jeffbezos.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
