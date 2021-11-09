@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    display: block;
+    width: 100vw;
+}
+.sonnuoc{
+    display: flex;
+    background-color: bisque;
+    height: 100px;
+    align-items: center;
+}
+.sonnuoc a{
+    margin-left: 50px;
+}
+.menu{
+    margin-top: -16px;
+    background-color: blue;
+    height: 40px;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: #66FFCC;
+}
+.tdleft{
+    background-color: cyan;
+}
+.anh{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
