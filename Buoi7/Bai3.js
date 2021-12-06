@@ -1,26 +1,22 @@
-const case1 = "    hOang Bui   ";
-// -> Hoang Bui
-
-const case2 = " hOANG      BUI   hOang     ";
-
-const case3 = "23traN    dUOng23     ";
-
-function chuanhoa(string){
-    string = string.trim().toLowerCase();
-    string = string.replace(/\d/g,'');
-    string = string.replace(/\s+/g,' ');
-    const newstring = string.split(' ').map(ele => {
-        return ele.charAt(0).toUpperCase()+ele.slice(1);
-    }).join(' ');
-    return newstring;
+function Post (title, body, author, views, comments, isLive){
+    this.title = title;
+    this.body = body;
+    this.author = author;
+    this.views = views;
+    this.comments = comments;
+    this.isLive = isLive;
 }
 
+const post = new Post(
+    "ahihi",
+    "anh Hoàng đzzz",
+    "abc",
+    100,
+    [
+      {author: 'anh Huân đzzz', body: "lewlew"},
+      {author: 'anh Huân đzzz', body: "lewlew"},
+    ],
+    true
+);
 
-console.log("\n---CASE1---");
-console.log(chuanhoa(case1));
-
-console.log("\n---CASE2---");
-console.log(chuanhoa(case2));
-
-console.log("\n---CASE3---");
-console.log(chuanhoa(case3));
+console.log(post);

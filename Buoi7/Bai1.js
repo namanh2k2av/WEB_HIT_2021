@@ -1,29 +1,21 @@
-//Case 1
-const nums = [1, 3, 5, 7, 1, 2, 3, 4, 5, 6];
-
-//Case 2
-const nums1 = [1, 1, 1, 10, 23, 2, 26, 26];
-
-//Case 3
-const nums2 = [1000, 2000, 1000, 2000, 10000, 22222];
-
-function countNumbers(a){
-    a.sort();
-    let count = 0;
-    for(let i=0; i<a.length; i++){
-        count++;
-        if(a[i] !== a[i+1]){
-            console.log("Số " + a[i] + " xuất hiện " + count + "lần");
-            count = 0;
-        }
-    }
+const check = (str) => {
+    str = str.split('');
+    dem = 0;
+    str.forEach((val,index) => {
+        if(str.indexOf(val) !== -1 && str.lastIndexOf(val) === str.indexOf(val))
+            dem++;
+        if(dem === 1)
+            console.log(index);
+    });
+    if(dem === 0)
+        console.log(-1);
 }
 
-console.log("\n--CASE1--")
-console.log(countNumbers(nums));
+console.log('---CASE1---');
+console.log(check('tranduong'));
 
-console.log("\n--CASE2--")
-console.log(countNumbers(nums1));
+console.log('---CASE2---');
+console.log(check('hitclubhiuhiu'));
 
-console.log("\n--CASE3--")
-console.log(countNumbers(nums2));
+console.log('---CASE3---');
+console.log(check('aabb'));
