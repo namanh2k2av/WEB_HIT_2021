@@ -1,4 +1,4 @@
-function add(digits){
+function Add(digits){
     let number = digits.reduce((a, b) => {
         return a + b;
     }, "");
@@ -11,10 +11,10 @@ const arr2 = [0];
 const arr3 = [9];
 
 console.log('---CASE1---');
-console.log(add(arr1));
+console.log(Add(arr1));
 
 console.log('---CASE1---');
-console.log(add(arr2));
+console.log(Add(arr2));
 
 console.log('---CASE1---');
-console.log(add(arr3));
+console.log(Add(arr3));

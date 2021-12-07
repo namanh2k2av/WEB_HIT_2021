@@ -1,4 +1,4 @@
-const check = (str) => {
+const Check = (str) => {
     str = str.split('');
     dem = 0;
     str.forEach((val,index) => {
@@ -12,10 +12,10 @@ const check = (str) => {
 }
 
 console.log('---CASE1---');
-console.log(check('tranduong'));
+console.log(Check('tranduong'));
 
 console.log('---CASE2---');
-console.log(check('hitclubhiuhiu'));
+console.log(Check('hitclubhiuhiu'));
 
 console.log('---CASE3---');
-console.log(check('aabb'));
+console.log(Check('aabb'));
