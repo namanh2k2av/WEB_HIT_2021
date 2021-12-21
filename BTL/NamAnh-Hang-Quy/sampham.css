@@ -95,6 +95,7 @@ ul.submenu-price-m {
     border-radius: 4px;
     background-color: #fff;
     display: none;
+    z-index: 1000;
 }
 
 ul.submenu-price-m li {
